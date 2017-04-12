@@ -1,0 +1,10 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Java Application Dev
+  host: Java-Application-Dev
+  disk_quota: 1024M
+  services:
+  - ClearDB MySQL Database-z7
